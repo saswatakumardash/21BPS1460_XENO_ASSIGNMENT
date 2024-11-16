@@ -13,8 +13,8 @@ import SettingsPage from "./pages/Settings/Page.jsx";
 
 const App = () => {
   return (
-    <Router basename="/">
-      <DashboardLayout>
+    <DashboardLayout>
+      <Router basename="/">
         <Routes>
           <Route path="/" element={<Navigate to="/audiences" replace />} />
           <Route path="/audiences" element={<AudienceBuilder />} />
@@ -22,8 +22,8 @@ const App = () => {
           <Route path="/analytics" element={<AnalyticsDashboard />} />
           <Route path="/settings" element={<SettingsPage />} />
         </Routes>
-      </DashboardLayout>
-    </Router>
+      </Router>
+    </DashboardLayout>
   );
 };
 
