@@ -16,7 +16,7 @@ const App = () => {
     <Router>
       <DashboardLayout>
         <Routes>
-          <Route path="/" element={<Navigate to="/audiences" replace />} />
+          <Route path="/" element={<DashboardLayout />} />
           <Route path="/audiences" element={<AudienceBuilder />} />
           <Route path="/campaigns" element={<CampaignList />} />
           <Route path="/analytics" element={<AnalyticsDashboard />} />
