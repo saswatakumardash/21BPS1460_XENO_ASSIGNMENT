@@ -3,7 +3,7 @@
 
 **Author**: Saswata Kumar Dash  
 **Registration Number**: 21BPS1460  
-**Frontend Link**: [CRM Frontend](https://21-bps-1460-xeno-assignment.vercel.app/audiences)
+**Frontend Link**: [CRM Frontend](https://21-bps-1460-xeno-assignment.vercel.app/)
 
 ---
 
@@ -166,7 +166,7 @@ frontend/
    - Start the frontend (`npm start` or via Docker)
 
 3. Access the CRM Website:
-   - Open `http://localhost:3001` in your browser or visit [CRM Frontend](https://21-bps-1460-xeno-assignment.vercel.app/audiences)
+   - Open `http://localhost:3001` in your browser or visit [CRM Frontend](https://21-bps-1460-xeno-assignment.vercel.app/)
    - Manage customer interactions, view data, and perform CRUD operations
 
 4. Real-time Messaging:
